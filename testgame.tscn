@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cb31hg724cb7j"]
+
+[ext_resource type="PackedScene" uid="uid://dqfp5ttct4mhk" path="res://level-doggo.blend" id="1_oritg"]
+[ext_resource type="PackedScene" uid="uid://bp4yf0liqqgl3" path="res://doggo-character-smooth.blend" id="2_ojfcx"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Level1" parent="." instance=ExtResource("1_oritg")]
+
+[node name="doggo-character-smooth" parent="Level1" instance=ExtResource("2_ojfcx")]
